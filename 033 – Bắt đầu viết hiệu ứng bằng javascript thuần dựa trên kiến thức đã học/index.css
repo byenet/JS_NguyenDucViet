@@ -1,0 +1,7 @@
+.card{
+    transition: 4s;
+}
+
+.diphai{
+    transform: translateX(400px)
+}
