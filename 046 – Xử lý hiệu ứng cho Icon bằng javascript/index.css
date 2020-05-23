@@ -1,0 +1,45 @@
+.thanhxanh {
+    height: 43px;
+    background-color: #3b5998;
+    padding-left: 805px;
+}
+
+._1khoi {
+    float: left;
+    position: relative;
+}
+
+.dehienthi{
+    position: absolute;
+    width: 201px;
+    font-size: 13px;
+    transition: 0.4s;
+    right: 3px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dehienthi:after{
+    content:"";
+    position: absolute;
+    top: -20px;
+    width: 0;
+    height: 0;
+    border: 11px transparent solid;
+    border-bottom-color: white;
+    right: 8px;
+}
+
+.declick{
+    padding: 10px 16px;
+    transition: 0.4s;
+}
+
+.declick i.fa {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mautrang{
+    color: white;
+}

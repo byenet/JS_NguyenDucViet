@@ -1,0 +1,79 @@
+.noidungto{
+    height: 100vh;
+    transition: 0.4s;
+    box-sizing: border-box;
+    padding-top: 10%;
+    
+}
+
+/* thay the cho 100vh phia tren de background dc 100% */
+html, body{
+    /* height: 100%; */
+
+    /* loai bo thanh cuon ngang */
+    overflow-x: hidden;
+}
+
+.menutrai{
+    height: 100%;
+    background-color: #5cb85c;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: 0.4s;
+}
+
+/* Viet lien nghia la 2 class ap dung vao cung 1 the -> muc do uu tien cao hon */
+.menutrai.vetrai{
+    transform: translateX(-100%);
+}
+
+.list-group-item{
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.list-group-item:hover{
+    background: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+h3{
+    font-size: 35px;
+    padding: 20px;
+    color: white;
+}
+
+.nut{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.den{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.len{
+    opacity: 1;
+    visibility: visible;
+}
+
+.dichphai{
+    transform: translateX(300px);
+}

@@ -1,0 +1,29 @@
+.menu{
+    background-color: #ccc;
+    padding: 41px 0;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.phai a{
+    color:#2d4f80;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.phai a:hover{
+    color:black;
+}
+
+.nholai{
+    font-size: 20px;
+    padding:15px 0;
+}
