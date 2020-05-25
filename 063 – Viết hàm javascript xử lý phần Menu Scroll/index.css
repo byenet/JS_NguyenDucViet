@@ -1,0 +1,36 @@
+.banner{
+    height: 95px;
+    background: url('./img/w_1.png') no-repeat center;
+    background-size: cover;
+}
+
+.menu{
+    height: 50px;
+    line-height: 50px;
+    background-color: #ad1c22;
+}
+
+.menu a{
+    color: white;
+    padding: 0 34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.menu a:hover{
+   color: rgba(0, 0, 0, 0.705);
+}
+
+.menuden {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menuden a:hover {
+    color: rgba(36, 212, 20, 0.705);
+}
