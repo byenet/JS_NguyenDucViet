@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded",function (){
     // console.log(slides);
     
     //  Viet ham tu chuyen slide
-    var thoiGian = setInterval(function () {autoSlide()}, 5000);
+    var thoiGian = setInterval(function () {
+        autoSlide()
+    }, 5000);
 
     // bat su kien click cho tung nut
     for(var i = 0; i < nut.length; i++){
