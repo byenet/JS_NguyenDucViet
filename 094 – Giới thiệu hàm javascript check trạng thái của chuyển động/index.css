@@ -1,0 +1,32 @@
+.khoi{
+    background-color: lightblue;
+    width: 100px;
+    height: 60px;
+}
+
+.chuyendong{
+    animation: ani 1s forwards;
+}
+
+.dixuong {
+    animation: ani2 1s forwards;
+}
+
+@keyframes ani{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(200px);
+    }
+}
+
+@keyframes ani2{
+    from {
+        transform: translateX(200px) translateY(0);
+    }
+
+    to {
+        transform: translateX(200px) translateY(300px);
+    }
+}
