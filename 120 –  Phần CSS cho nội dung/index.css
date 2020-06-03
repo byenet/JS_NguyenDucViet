@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.menutren {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
+}
+
+.noidungchinh {
+    margin-top: 61px;
+    position: relative;
+    height: 100%;
+}
+
+.noidungchinh .trai {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.noidungchinh .trai img {
+    position: fixed;
+    left: 0;
+}
+
+.noidungchinh .giua {
+    float: left;
+    width: 40%;
+}
+
+.noidungchinh .phai {
+    float: left;
+    width: 35%;
+}
+
+.noidungchinh .phai img {
+    position: fixed;
+    right: 0;
+    height: 100%;
+}
+
+.motkhoi {
+    width: 100%;
+}
+
+.motkhoi .avatar {
+    height: 70px;
+    background-color: lightblue;
+}
+
+.motkhoi .cacAnh {}
+
+.cacAnh img.motanhtren {
+    width: 100%;
+}
+
+.cacAnh div._3anhduoi img {
+    width: 32.9%;
+}
+
+.motkhoi .avatar {}
